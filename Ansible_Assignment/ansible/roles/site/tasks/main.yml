@@ -7,6 +7,3 @@
 - name: complete website configuration
   include_tasks: server_work.yml
 
-- name: enable required port from firewall
-  include_tasks: firewall.yml
-
