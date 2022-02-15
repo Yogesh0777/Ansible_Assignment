@@ -1,0 +1,7 @@
+---
+- name: Allow all access to tcp port "{{server_port}}"
+  ufw:
+    rule: allow
+    port: "{{server_port}}"
+    proto: tcp
+

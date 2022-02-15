@@ -1,0 +1,9 @@
+---
+# vars file for roles/site
+
+webserver_package: nginx
+server_name: yog
+document_root: /var/www
+app_root: html
+server_port: 8081
+

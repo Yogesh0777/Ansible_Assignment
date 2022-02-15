@@ -1,0 +1,5 @@
+---
+- hosts: demo
+  remote_user: root
+  roles:
+    - sample/site

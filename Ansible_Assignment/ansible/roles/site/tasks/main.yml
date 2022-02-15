@@ -1,0 +1,12 @@
+---
+# tasks file for roles/site
+
+- name: Webserver package installation
+  include_tasks: install_webserver.yml
+
+- name: complete website configuration
+  include_tasks: server_work.yml
+
+- name: enable required port from firewall
+  include_tasks: firewall.yml
+
